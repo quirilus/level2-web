@@ -1,0 +1,176 @@
+body{
+    font: 15px/1.5 arial, helvetica sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+/*Global*/
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+
+}
+header a:hover{
+    color:#13044e;
+    font-weight: bold;
+
+}
+header .highlight ,header.current{
+    color: #e8491d;
+    font-weight: bold;
+
+}
+header nav{
+    float: right;
+    margin: top 10px;
+
+
+}
+header a:hover{
+    color: #e8491d;
+    font-weight: bold;
+}
+.dark{
+    padding: 15px;
+    background: #334241;
+    color: #ffff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 230;
+}
+.button_1{
+    height: 21px;
+    background: #e8491d;
+    border: 0;
+    padding-left: 20px;
+    color: #ffff;
+    text-align: center;
+
+}
+header{
+    background: #334241;
+    color: #ffff;
+    padding-top: 10px;
+    min-height: 72px;
+    border-bottom: #e8491d 3px solid;
+
+
+}
+header a{
+    color: #ffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    
+}
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+    
+   
+}
+header #brading{
+    float: left;
+
+}
+header #branding{
+    margin: 0;
+}
+#showcase{
+    min-height: 400px;
+    background: url('../images/showcase.jpg') no-repeat;
+    background-position: cover;
+    text-align: center;
+    color: #ffff;
+
+}
+#showcase{
+    margin-top: 0px;
+    font-size: 55px;
+    margin-bottom: 0px;
+
+}
+#showcase p{
+    font-size: 20px;
+}
+#newsletter{
+    width: 100%;
+    color: #ffff;
+    background-color:  #354244;
+    padding: 10px;
+
+}
+#newsletter{
+    float: left;
+
+}
+#newsletter form{
+    float: right;
+}
+#newletter input[type="email"]{
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+}
+/*boxes*/
+#boxes{
+    margin-top: 20px;
+}
+
+#boxes .box{
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+}
+#boxes .box img{
+    width: 90px;
+}
+aside#sidebar{
+    float: right;
+    width: 30%;
+    margin-top: 10px;
+}
+aside#sidebar .quote input, aside#sidebar .quote textarea{
+    width: 90%;
+    padding: 5px;
+    border-radius: 12px;
+}
+footer{
+    text-align: center;
+    padding: 10px;
+    font-size: 15px;
+    background-color: #e8491d;
+    color: #f4f4f4;
+}
+.quote{
+    margin-top: 10px;
+    border-radius: 12px;
+}
+#services{
+ border: 3px solid red;
+ background-color: aquamarine;
+ overflow: hidden;
+ width: 70%;
+border-radius: 22px;
+border-bottom-left-radius: 30px;
+ 
+}
+.aside#sidebar{
+    float: right;
+    width: 30%;
+    margin-top: 10px;
+}
+aside.quote input, aside#sidebar .quote textarea{
+    width: 90%;
+    padding: 5px;
+
+}
+ul#services li{
+    padding: 20px;
+    border: #cccc solid 10px;
+    margin-bottom: 5px;
+    background: #e6e6e6;
+}
